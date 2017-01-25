@@ -22,7 +22,7 @@ public class LargestPalindromeProduct {
          half--;
       }
 
-      return (int) palindrome % 1337;
+      return (int) (palindrome % 1337);
    }
 
 }
