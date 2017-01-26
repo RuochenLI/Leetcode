@@ -9,22 +9,37 @@ dict = ["leet", "code"].
 Return true because "leetcode" can be segmented as "leet code".
  */
 public final class WordBreak {
-    public boolean wordBreak(String s, List<String> wordDict) {
-        if (s.isEmpty()) {
-            return true;
-        }
+    // public boolean wordBreak(String s, List<String> wordDict) {
+    //     if (s.isEmpty()) {
+    //         return true;
+    //     }
         
-        char[] charArray = s.toCharArray();
-        StringBuilder sb = new StringBuilder();
-        for (int index = 0; index < charArray.length; index++) {
-            sb.append(charArray[index]);
-            if (wordDict.contains(sb.toString())) {
-                if (wordBreak(s.substring(index + 1), wordDict)) {
-                    return true;
+    //     char[] charArray = s.toCharArray();
+    //     StringBuilder sb = new StringBuilder();
+    //     for (int index = 0; index < charArray.length; index++) {
+    //         sb.append(charArray[index]);
+    //         if (wordDict.contains(sb.toString())) {
+    //             if (wordBreak(s.substring(index + 1), wordDict)) {
+    //                 return true;
+    //             }
+    //         }
+    //     }
+        
+    //     return false;
+    // }
+    
+    public boolean wordBreak(String s, List<String> dict) {
+        boolean [] breakable = new boolean[s.length()+1];
+        breakable[0] = true;
+
+        for(int i=1;i<=s.length();i++){
+            for(int j=0;j<i;j++){
+                if(breakable[j]&&dict.contains(s.substring(j,i))){
+                    breakable[i] = true;
+                    break;
                 }
             }
         }
-        
-        return false;
+        return breakable[s.length()];
     }
 }
