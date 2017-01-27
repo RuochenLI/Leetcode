@@ -8,41 +8,61 @@ public final class GasStation {
             index++;
         }
         
-        //find the most gap
-        index = 1;
-        int maxIndex = 0;
-        int max = gap[0];
-        while (index < gap.length) {
-            if (max < gap[index]) {
-                max = gap[index];
-                maxIndex = index;
-            }
-            index++;
-        }
+        // //find the most gap
+        // index = 1;
+        // int maxIndex = 0;
+        // int max = gap[0];
+        // while (index < gap.length) {
+        //     if (max < gap[index]) {
+        //         max = gap[index];
+        //         maxIndex = index;
+        //     }
+        //     index++;
+        // }
         
         //simulate
-        int targetIndex = maxIndex;
-        int restGas = gap[targetIndex];
-        index = targetIndex + 1;
+        // int targetIndex = maxIndex;
+        // int restGas = gap[targetIndex];
+        // index = targetIndex + 1;
+        // boolean canNotAchieved = false;
+        // while (index != targetIndex && !canNotAchieved) {
+        //     if (index >= gap.length) {
+        //         index = 0;
+        //     }
+        //     restGas += gap[index];
+        //     if (restGas < 0) {
+        //         canNotAchieved = true;
+        //     }
+        //     index++;
+        //              if (index >= gap.length) {
+        //     index = 0;
+        //  }
+        // }
+        
+        int pointer = 0;
         boolean canNotAchieved = false;
-        while (index != targetIndex && !canNotAchieved) {
-            if (index >= gap.length) {
-                index = 0;
-            }
+        while (pointer < gas.length && !canNotAchieved) {
+            index = pointer +1;
+            int restGas = gap[pointer];
+            while (index != pointer && !canNotAchieved) {
+                if (index >= gap.length) {
+                    index = 0;
+                }
             restGas += gap[index];
             if (restGas < 0) {
                 canNotAchieved = true;
             }
             index++;
-                     if (index >= gap.length) {
-            index = 0;
-         }
+            if (index >= gap.length) {
+                index = 0;
+            }
+            }
         }
         
         if (canNotAchieved) {
             return -1;
         } else {
-            return targetIndex;
+            return pointer;
         }
     }
 }
