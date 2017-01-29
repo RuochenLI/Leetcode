@@ -1,4 +1,5 @@
 public final class GasStation {
+
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int index = 0;
         int[] gap = new int[gas.length];
@@ -8,61 +9,42 @@ public final class GasStation {
             index++;
         }
         
-        // //find the most gap
-        // index = 1;
-        // int maxIndex = 0;
-        // int max = gap[0];
-        // while (index < gap.length) {
-        //     if (max < gap[index]) {
-        //         max = gap[index];
-        //         maxIndex = index;
-        //     }
-        //     index++;
-        // }
-        
-        //simulate
-        // int targetIndex = maxIndex;
-        // int restGas = gap[targetIndex];
-        // index = targetIndex + 1;
-        // boolean canNotAchieved = false;
-        // while (index != targetIndex && !canNotAchieved) {
-        //     if (index >= gap.length) {
-        //         index = 0;
-        //     }
-        //     restGas += gap[index];
-        //     if (restGas < 0) {
-        //         canNotAchieved = true;
-        //     }
-        //     index++;
-        //              if (index >= gap.length) {
-        //     index = 0;
-        //  }
-        // }
-        
         int pointer = 0;
-        boolean canNotAchieved = false;
-        while (pointer < gas.length && !canNotAchieved) {
-            index = pointer +1;
-            int restGas = gap[pointer];
-            while (index != pointer && !canNotAchieved) {
-                if (index >= gap.length) {
-                    index = 0;
-                }
-            restGas += gap[index];
-            if (restGas < 0) {
-                canNotAchieved = true;
+        boolean canAchieved = false;
+        while (pointer < gas.length && !canAchieved) {
+            if (gap[pointer] >= 0) {
+                index = updateIndex(pointer + 1, gap.length);
+                int restGas = gap[pointer];
+                canAchieved = isCanAchieved(index, gap, pointer, restGas);
             }
-            index++;
-            if (index >= gap.length) {
-                index = 0;
-            }
-            }
+
+            pointer++;
         }
         
-        if (canNotAchieved) {
+        if (!canAchieved) {
             return -1;
         } else {
-            return pointer;
+            return --pointer;
         }
+    }
+
+    private boolean isCanAchieved(int index, int[] gap, int pointer, int restGas) {
+        boolean canAchieved = true;
+        while (index != pointer && canAchieved) {
+            restGas += gap[index];
+            if (restGas < 0) {
+                canAchieved = false;
+            }
+            index++;
+            index = updateIndex(index, gap.length);
+        }
+        return canAchieved;
+    }
+
+    private int updateIndex(int index, int length) {
+        if (index >= length) {
+            index = 0;
+        }
+        return index;
     }
 }

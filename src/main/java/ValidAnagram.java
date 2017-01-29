@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * Created by Ruochen on 23/01/2017.
 Given two strings s and t, write a function to determine if t is an anagram of s.

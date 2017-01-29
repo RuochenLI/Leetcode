@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Ruochen on 23/01/2017.
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
