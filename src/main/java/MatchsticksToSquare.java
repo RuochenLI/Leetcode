@@ -16,19 +16,22 @@ public final class MatchsticksToSquare {
         
     }
     
-    public boolean findSolution(int[] numList, long[] sides, int indicator) {
+    private boolean findSolution(int[] numList, long[] sides, int indicator) {
         if (indicator >= numList.length && finish(sides)) {
             return true;
         }
         
         for (int i = indicator; i < numList.length; i++) {
+            boolean noOneMatchCanBePutInTheSide = true;
             for (int j = 0; j < 4; j++) {
                 if (sides[j] >= numList[i]) {
+                    noOneMatchCanBePutInTheSide = false;
                     sides[j] -= numList[i];
                     if (findSolution(numList, sides, indicator + 1)) return true;
                     sides[j] += numList[i];
                 }
             }
+            if (noOneMatchCanBePutInTheSide) return false;
         }
         
         return false;
