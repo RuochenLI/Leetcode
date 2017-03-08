@@ -41,6 +41,18 @@ public class IPO {
         }
     }
 
+    /*
+    proposed by others:
+    The idea is each time we find a project with max profit and within current capital capability.
+Algorithm:
+
+Create (capital, profit) pairs and put them into PriorityQueue pqCap. This PriorityQueue sort by capital increasingly.
+Keep polling pairs from pqCap until the project out of current capital capability. Put them into
+PriorityQueue pqPro which sort by profit decreasingly.
+Poll one from pqPro, it's guaranteed to be the project with max profit and within current capital capability. Add the profit to capital W.
+Repeat step 2 and 3 till finish k steps or no suitable project (pqPro.isEmpty()).
+Time Complexity: For worst case, each project will be inserted and polled from both PriorityQueues once, so the overall runtime complexity should be O(NlgN), N is number of projects.
+    */
     //solution by priority queue
     public int findMaximizedCapital1(int k, int W, int[] Profits, int[] Capital) {
         PriorityQueue<int[]> pqCap = new PriorityQueue<>((a, b) -> (a[0] - b[0]));
@@ -61,105 +73,6 @@ public class IPO {
         }
 
         return W;
-    }
-
-    public class Solution {
-        public int findMaximizedCapital(int k, int W, int[] Profits, int[] Capital) {
-            if (Profits == null || Profits.length == 0) return 0;
-            int n = Profits.length;
-            PriorityQueue<Tuple> q = new PriorityQueue();
-            for (int i = 0; i < n; i++) {
-                q.add(new Tuple(Profits[i], Capital[i]));
-            }
-            while (!q.isEmpty() && k-- > 0) {
-                Queue<Tuple> tmp = new ArrayDeque();
-                while (!q.isEmpty() && q.peek().cap > W) tmp.add(q.poll());
-                if (q.isEmpty()) return W;
-                Tuple cur = q.poll();
-                W += cur.pro;
-                while (!tmp.isEmpty()) q.add(tmp.poll());
-            }
-            return W;
-        }
-
-        class Tuple implements Comparable<Tuple> {
-            int pro, cap;
-            public Tuple(int pro, int cap) {
-                this.pro = pro;
-                this.cap = cap;
-            }
-
-            public int compareTo(Tuple that) {
-                return that.pro - this.pro;
-            }
-        }
-    }
-
-    public class Solution2 {
-
-
-        public int findMaximizedCapital(int k, int W, int[] Profits, int[] Capital) {
-            if (Profits == null || Capital == null) {
-                return 0;
-            }
-            ArrayList<Pair> projects = new ArrayList<>();
-            int n = Profits.length;
-            for (int i = 0; i < n; i++) {
-                projects.add(new Pair(Profits[i], Capital[i]));
-            }
-            // sort all the project with capital ascending order
-            // make it convenient to check all the projects that satisfy current capital constrain
-            Collections.sort(projects, new Comparator<Pair>() {
-                public int compare(Pair p1, Pair p2) {
-                    int diff = p1.cap - p2.cap;
-                    if (diff == 0) {
-                        diff = p2.prf - p1.prf;
-                    }
-                    return diff;
-                }
-            });
-
-            // maxheap : always garantee that the top of pq has maximual profit
-            PriorityQueue<Pair> pq = new PriorityQueue<>(new Comparator<Pair>() {
-                public int compare(Pair p1, Pair p2) {
-                    int diff = p2.prf - p1.prf;
-                    if (diff == 0) {
-                        diff = p1.cap - p1.cap;
-                    }
-                    return diff;
-                }
-            });
-
-            // the potential project we start to look at
-            int i = 0;
-            // loop for k round
-            int maxCapital = W;
-            for (int j = 0; j < k; j++) {
-                // initialization for each round
-                // put all the projects that satisfy current capital constrain into PQ
-                for (; i < n; i++) {
-                    if (projects.get(i).cap <= maxCapital) {
-                        pq.add(projects.get(i));
-                    } else {
-                        break;
-                    }
-                }
-                // the top of PQ would be our best choice of this round
-                if (!pq.isEmpty()) {
-                    maxCapital += pq.poll().prf;
-                }
-            }
-            return maxCapital;
-        }
-    }
-
-    class Pair {
-        int prf;
-        int cap;
-        public Pair(int prf, int cap) {
-            this.prf = prf;
-            this.cap = cap;
-        }
     }
 
 }
