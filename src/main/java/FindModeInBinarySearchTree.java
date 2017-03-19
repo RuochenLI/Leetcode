@@ -1,3 +1,5 @@
+import common.ContestProgrammingHelper;
+
 import java.util.*;
 
 /**
