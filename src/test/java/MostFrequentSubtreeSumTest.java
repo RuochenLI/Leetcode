@@ -1,3 +1,4 @@
+import common.TreeNode;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
@@ -9,9 +10,9 @@ public class MostFrequentSubtreeSumTest {
 
     @Test
     public void testCase1() {
-        MostFrequentSubtreeSum.TreeNode left = new MostFrequentSubtreeSum.TreeNode(2);
-        MostFrequentSubtreeSum.TreeNode right = new MostFrequentSubtreeSum.TreeNode(-5);
-        MostFrequentSubtreeSum.TreeNode root = new MostFrequentSubtreeSum.TreeNode(5);
+        TreeNode left = new TreeNode(2);
+        TreeNode right = new TreeNode(-5);
+        TreeNode root = new TreeNode(5);
 
         root.left = left;
         root.right = right;
@@ -24,13 +25,13 @@ public class MostFrequentSubtreeSumTest {
 
     @Test
     public void testCase2() {
-        MostFrequentSubtreeSum.TreeNode node1 = new MostFrequentSubtreeSum.TreeNode(5);
-        MostFrequentSubtreeSum.TreeNode node2 = new MostFrequentSubtreeSum.TreeNode(0);
-        MostFrequentSubtreeSum.TreeNode node3 = new MostFrequentSubtreeSum.TreeNode(1);
+        TreeNode node1 = new TreeNode(5);
+        TreeNode node2 = new TreeNode(0);
+        TreeNode node3 = new TreeNode(1);
         node3.left = node1;
         node3.right = node2;
-        MostFrequentSubtreeSum.TreeNode node4 = new MostFrequentSubtreeSum.TreeNode(6);
-        MostFrequentSubtreeSum.TreeNode node5 = new MostFrequentSubtreeSum.TreeNode(3);
+        TreeNode node4 = new TreeNode(6);
+        TreeNode node5 = new TreeNode(3);
         node5.left = node3;
         node5.right = node4;
 
