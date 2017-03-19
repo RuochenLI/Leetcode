@@ -1,6 +1,10 @@
 import common.ContestProgrammingHelper;
+import common.TreeNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Given the root of a tree, you are asked to find the most frequent subtree sum. The subtree sum of a node is defined as the sum of all the node values formed by the subtree rooted at that node (including the node itself). So what is the most frequent subtree sum value? If there is a tie, return all the values with the highest frequency in any order.
@@ -23,16 +27,6 @@ import java.util.*;
  * Created by Ruochen on 04/02/2017.
  */
 public class MostFrequentSubtreeSum {
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public int[] findFrequentTreeSum(TreeNode root) {
         Map<TreeNode, Integer> subTreeValue = new HashMap<>();

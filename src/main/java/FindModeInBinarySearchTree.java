@@ -1,6 +1,10 @@
 import common.ContestProgrammingHelper;
+import common.TreeNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Given a binary search tree (BST) with duplicates, find all the mode(s) (the most frequently occurred element) in the given BST.
@@ -22,13 +26,6 @@ import java.util.*;
  */
 
 public class FindModeInBinarySearchTree {
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
 
     public int[] findMode(TreeNode root) {
         Map<Integer, Integer> occMap = new HashMap<>();
