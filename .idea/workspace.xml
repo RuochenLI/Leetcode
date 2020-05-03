@@ -2,57 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa40128c-628a-4456-9549-a8302daa9265" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_r05.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mayChallenge2020/RansomNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mayChallenge2020/RansomNoteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BattleshipsInABoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/BattleshipsInABoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTreeLevelOrderTraversalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConvertBSTToGreaterTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/ConvertBSTToGreaterTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CountingBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/CountingBits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/DiameterOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EncodeAndDecodeTinyURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/EncodeAndDecodeTinyURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/EvaluateReversePolishNotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindModeInBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/FindModeInBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/FindPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/GasStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HammingDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/HammingDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/IPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IncreasingSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/IncreasingSubsequences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KDiffPairsInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/KDiffPairsInAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeyboardRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/KeyboardRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LargestPalindromeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/LargestPalindromeProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LicenseKeyFormatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/LicenseKeyFormatting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MatchsticksToSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/MatchsticksToSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MinimumAbsoluteDifferenceInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/MinimumAbsoluteDifferenceInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MinimumTimeDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/MinimumTimeDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MostFrequentSubtreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/MostFrequentSubtreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberComplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/NumberComplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberOfOneBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/NumberOfOneBits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/RemoveBoxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseStringII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/ReverseStringII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/TargetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ValidSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/ValidSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/WordBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConvertBSTToGreaterTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/ConvertBSTToGreaterTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GasStationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/GasStationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IPOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/IPOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IncreasingSubsequencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/IncreasingSubsequencesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KDiffPairsInAnArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/KDiffPairsInAnArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MatchsticksToSquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/MatchsticksToSquareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/MatrixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MostFrequentSubtreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/MostFrequentSubtreeSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RemoveBoxesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/RemoveBoxesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ValidSquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/ValidSquareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IncreasingSubsequences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TargetSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IncreasingSubsequencesTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConvertBSTToGreaterTreeTest.testCase1">
+  <component name="RunManager" selected="JUnit.RansomNoteTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -421,6 +373,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RansomNoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mayChallenge2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mayChallenge2020" />
+      <option name="MAIN_CLASS_NAME" value="mayChallenge2020.RansomNoteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RansomNoteTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mayChallenge2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mayChallenge2020" />
+      <option name="MAIN_CLASS_NAME" value="mayChallenge2020.RansomNoteTest" />
+      <option name="METHOD_NAME" value="testCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RansomNoteTest.tetCase5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mayChallenge2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mayChallenge2020" />
+      <option name="MAIN_CLASS_NAME" value="mayChallenge2020.RansomNoteTest" />
+      <option name="METHOD_NAME" value="tetCase5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -483,9 +485,15 @@
     <list>
       <item itemvalue="JUnit.IncreasingSubsequencesTest.testIncreasingSubsequences" />
       <item itemvalue="JUnit.ConvertBSTToGreaterTreeTest.testCase1" />
+      <item itemvalue="JUnit.RansomNoteTest" />
+      <item itemvalue="JUnit.RansomNoteTest.testCase1" />
+      <item itemvalue="JUnit.RansomNoteTest.tetCase5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RansomNoteTest" />
+        <item itemvalue="JUnit.RansomNoteTest.tetCase5" />
+        <item itemvalue="JUnit.RansomNoteTest.testCase1" />
         <item itemvalue="JUnit.ConvertBSTToGreaterTreeTest.testCase1" />
         <item itemvalue="JUnit.IncreasingSubsequencesTest.testIncreasingSubsequences" />
       </list>
@@ -534,22 +542,42 @@
       <screen x="1440" y="-74" width="2560" height="1417" />
     </state>
     <state x="1854" y="501" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588512036108" />
-    <state width="1238" height="400" key="GridCell.Tab.0.bottom" timestamp="1588512133072">
+    <state x="1843" y="345" key="#xdebugger.evaluate" timestamp="1588515683823">
       <screen x="1440" y="-74" width="2560" height="1417" />
     </state>
-    <state width="1238" height="400" key="GridCell.Tab.0.bottom/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588512133072" />
-    <state width="1238" height="400" key="GridCell.Tab.0.center" timestamp="1588512133071">
+    <state x="1843" y="345" key="#xdebugger.evaluate/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588515683823" />
+    <state width="1238" height="400" key="GridCell.Tab.0.bottom" timestamp="1588516465906">
       <screen x="1440" y="-74" width="2560" height="1417" />
     </state>
-    <state width="1238" height="400" key="GridCell.Tab.0.center/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588512133071" />
-    <state width="1238" height="400" key="GridCell.Tab.0.left" timestamp="1588512133070">
+    <state width="1238" height="400" key="GridCell.Tab.0.bottom/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588516465906" />
+    <state width="1238" height="400" key="GridCell.Tab.0.center" timestamp="1588516465904">
       <screen x="1440" y="-74" width="2560" height="1417" />
     </state>
-    <state width="1238" height="400" key="GridCell.Tab.0.left/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588512133070" />
-    <state width="1238" height="400" key="GridCell.Tab.0.right" timestamp="1588512133071">
+    <state width="1238" height="400" key="GridCell.Tab.0.center/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588516465904" />
+    <state width="1238" height="400" key="GridCell.Tab.0.left" timestamp="1588516465903">
       <screen x="1440" y="-74" width="2560" height="1417" />
     </state>
-    <state width="1238" height="400" key="GridCell.Tab.0.right/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588512133071" />
+    <state width="1238" height="400" key="GridCell.Tab.0.left/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588516465903" />
+    <state width="1238" height="400" key="GridCell.Tab.0.right" timestamp="1588516465905">
+      <screen x="1440" y="-74" width="2560" height="1417" />
+    </state>
+    <state width="1238" height="400" key="GridCell.Tab.0.right/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588516465905" />
+    <state width="1238" height="491" key="GridCell.Tab.1.bottom" timestamp="1588515747237">
+      <screen x="1440" y="-74" width="2560" height="1417" />
+    </state>
+    <state width="1238" height="491" key="GridCell.Tab.1.bottom/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588515747237" />
+    <state width="1238" height="491" key="GridCell.Tab.1.center" timestamp="1588515747235">
+      <screen x="1440" y="-74" width="2560" height="1417" />
+    </state>
+    <state width="1238" height="491" key="GridCell.Tab.1.center/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588515747235" />
+    <state width="1238" height="491" key="GridCell.Tab.1.left" timestamp="1588515747234">
+      <screen x="1440" y="-74" width="2560" height="1417" />
+    </state>
+    <state width="1238" height="491" key="GridCell.Tab.1.left/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588515747234" />
+    <state width="1238" height="491" key="GridCell.Tab.1.right" timestamp="1588515747237">
+      <screen x="1440" y="-74" width="2560" height="1417" />
+    </state>
+    <state width="1238" height="491" key="GridCell.Tab.1.right/0.23.1440.829/1440.-74.2560.1417@1440.-74.2560.1417" timestamp="1588515747237" />
     <state x="1589" y="273" key="SettingsEditor" timestamp="1588512087093">
       <screen x="1440" y="-74" width="2560" height="1417" />
     </state>
@@ -562,6 +590,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/exercises/IncreasingSubsequences.java</url>
           <line>18</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mayChallenge2020/RansomNote.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
