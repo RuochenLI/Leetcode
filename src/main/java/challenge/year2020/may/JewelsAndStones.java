@@ -1,4 +1,4 @@
-package mayChallenge2020;
+package challenge.year2020.may;
 
 import java.util.Set;
 import java.util.stream.Collectors;

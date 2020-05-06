@@ -1,7 +1,8 @@
-package mayChallenge2020;
+package challenge.year2020.may;
 
 import static junit.framework.TestCase.assertEquals;
 
+import challenge.year2020.may.MajorityElement;
 import org.junit.Test;
 
 public class MajorityElementTest {

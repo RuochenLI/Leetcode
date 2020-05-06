@@ -1,7 +1,8 @@
-package mayChallenge2020;
+package challenge.year2020.may;
 
 import static org.junit.Assert.*;
 
+import challenge.year2020.may.RansomNote;
 import org.junit.Test;
 
 public class RansomNoteTest {

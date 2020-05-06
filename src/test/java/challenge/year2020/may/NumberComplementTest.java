@@ -1,5 +1,6 @@
-package mayChallenge2020;
+package challenge.year2020.may;
 
+import challenge.year2020.may.NumberComplement;
 import org.junit.Assert;
 import org.junit.Test;
 
