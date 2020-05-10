@@ -35,4 +35,23 @@ public class FindJudge {
 
         return -1;
     }
+
+    public int findJudge2(int N, int[][] trust) {
+        if (N == 1) return 1;
+
+        int[] people = new int[N + 1];
+
+        for (final int[] item : trust) {
+            people[item[0]]--;
+            people[item[1]]++;
+        }
+
+        for (int index = 0; index < people.length; index++) {
+            if (people[index] == N -1) {
+                return index;
+            }
+        }
+
+        return -1;
+    }
 }
