@@ -24,9 +24,8 @@ public class RedundantConnection {
         return node;
     }
 
-    private boolean union(int x, int y) {
+    private void union(int x, int y) {
         root[find(y)] = find(root[x]);
-        return false;
     }
 }
 //    int MAX_EDGE_VAL = 1000;
