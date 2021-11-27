@@ -1,11 +1,7 @@
 package challenge.year2021;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-
-import com.google.common.collect.Lists;
-import sun.jvm.hotspot.oops.Array;
 
 public class FindDisappearedNumbers {
 
