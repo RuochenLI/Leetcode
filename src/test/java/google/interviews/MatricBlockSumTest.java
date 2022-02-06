@@ -1,6 +1,7 @@
 package google.interviews;
 
 
+import interviews.google.MatricBlockSum;
 import junit.framework.Assert;
 import org.junit.Test;
 

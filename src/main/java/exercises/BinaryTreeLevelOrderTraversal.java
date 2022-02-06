@@ -1,6 +1,6 @@
 package exercises;
 
-import common.TreeNode;
+import helper.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

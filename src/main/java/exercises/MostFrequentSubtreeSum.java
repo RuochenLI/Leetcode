@@ -1,7 +1,7 @@
 package exercises;
 
-import common.ContestProgrammingHelper;
-import common.TreeNode;
+import helper.ContestProgrammingHelper;
+import helper.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashMap;

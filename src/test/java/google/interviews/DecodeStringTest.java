@@ -1,5 +1,6 @@
 package google.interviews;
 
+import interviews.google.DecodeString;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,5 +1,6 @@
 package google.interviews;
 
+import interviews.google.LongestPalindromeSubstring;
 import org.junit.Assert;
 import org.junit.Test;
 

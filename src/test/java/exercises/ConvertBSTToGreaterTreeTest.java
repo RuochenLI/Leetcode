@@ -1,7 +1,6 @@
 package exercises;
 
-import common.TreeNode;
-import exercises.ConvertBSTToGreaterTree;
+import helper.TreeNode;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;

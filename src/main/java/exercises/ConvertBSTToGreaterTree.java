@@ -1,6 +1,6 @@
 package exercises;
 
-import common.TreeNode;
+import helper.TreeNode;
 
 /**
  * 538. Convert BST to Greater Tree

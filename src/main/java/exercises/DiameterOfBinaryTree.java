@@ -1,6 +1,6 @@
 package exercises;
 
-import common.TreeNode;
+import helper.TreeNode;
 
 /**
  * Created by Ruochen on 19/03/2017.

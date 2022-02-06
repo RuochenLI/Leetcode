@@ -1,5 +1,6 @@
 package google.interviews;
 
+import interviews.google.ConstructBinaryTreeFromInorderAndPostorderTraversal;
 import org.junit.Test;
 
 public class ConstructBinaryTreeFromInorderAndPostorderTraversalTest {

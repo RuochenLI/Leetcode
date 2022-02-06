@@ -1,5 +1,6 @@
 package google.interviews;
 
+import interviews.google.LongestStringChain;
 import org.junit.Assert;
 import org.junit.Test;
 
