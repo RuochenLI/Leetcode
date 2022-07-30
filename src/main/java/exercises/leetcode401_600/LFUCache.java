@@ -11,7 +11,7 @@ public class LFUCache {
     //构造方法
     public LFUCache(int capacity) {
         this.capacity = capacity;
-        map = new HashMap<Integer, Node>(capacity);
+        map = new HashMap<>(capacity);
     }
 
     public int get(int key) {
