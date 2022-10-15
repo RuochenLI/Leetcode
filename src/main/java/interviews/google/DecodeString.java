@@ -1,7 +1,7 @@
 package interviews.google;
 
 public class DecodeString {
-    public String decodeString(String s) {
+    public String decodeString2021(String s) {
         int pointer = 0;
         StringBuilder result = new StringBuilder();
         while (pointer < s.length()) {
@@ -10,8 +10,8 @@ public class DecodeString {
                 result.append(c);
                 pointer++;
             } else {
-                String repeat = getRepeatTimes(s, pointer, c);
-                int repeatTimes = Integer.valueOf(repeat);
+                String repeat = getRepeatTimes(s, pointer);
+                int repeatTimes = Integer.parseInt(repeat);
                 pointer = pointer + repeat.length();
                 int start = pointer + 1;
                 int innerPointer = start + 1;
@@ -23,16 +23,14 @@ public class DecodeString {
                 }
                 pointer = innerPointer;
                 int end = innerPointer - 1;
-                String repeatString = decodeString(s.substring(start, end));
-                for (int i = 0; i < repeatTimes; i++) {
-                    result.append(repeatString);
-                }
+                String repeatString = decodeString2021(s.substring(start, end));
+                result.append(String.valueOf(repeatString).repeat(Math.max(0, repeatTimes)));
             }
         }
         return result.toString();
     }
 
-    private String getRepeatTimes(String s, int pointer, char c) {
+    private String getRepeatTimes(String s, int pointer) {
         StringBuilder repeater = new StringBuilder();
         while (s.charAt(pointer) >= '0' && s.charAt(pointer) <= '9') {
             repeater.append(s.charAt(pointer));
